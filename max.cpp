@@ -19,13 +19,13 @@ int main (){
 		
 		if (num1<num3){
 			
-			cout<<"Maximum number :"<<num3<<endl;
+			cout<<"\n\tMaximum number :"<<num3<<endl;
 			
 		}
 		
 		else {
 			
-			cout<<"Maximum number :"<<num1<<endl;
+			cout<<"\n\tMaximum number :"<<num1<<endl;
 			
 		}
 	}
@@ -34,13 +34,13 @@ int main (){
 		
 		if (num2<num3){
 			
-			cout<<"Maximum number :"<<num3<<endl;
+			cout<<"\n\tMaximum number :"<<num3<<endl;
 			
 		}
 		
 		else {
 			
-			cout<<"Maximum number :"<<num2<<endl;
+			cout<<"\n\tMaximum number :"<<num2<<endl;
 		}
 	}
 }
