@@ -4,7 +4,7 @@ using namespace std;
 
 int main (){
 	
-	int num1,num2,num3;
+	int num1,num2,num3,max;
 	
 	cout<<"Insert first value ;";
 	cin>>num1;
@@ -15,32 +15,24 @@ int main (){
 	cout<<"Insert third value ;";
 	cin>>num3;
 	
-	if (num1,num2){
+	if (num1>num2){
 		
-		if (num1<num3){
-			
-			cout<<"\n\tMaximum number :"<<num3<<endl;
-			
-		}
-		
-		else {
-			
-			cout<<"\n\tMaximum number :"<<num1<<endl;
-			
-		}
+		max=num1;
 	}
 	
 	else {
 		
-		if (num2<num3){
-			
-			cout<<"\n\tMaximum number :"<<num3<<endl;
-			
-		}
-		
-		else {
-			
-			cout<<"\n\tMaximum number :"<<num2<<endl;
-		}
+		max=num2;
 	}
+	
+	if (num3>max){
+		
+		max=num3;
+		
+	}
+	
+	cout<<"Maximum :"<<max;
+		
+	return 0;
+	
 }
